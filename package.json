@@ -1,29 +1,37 @@
 {
-    "name": "module-18-project",
-    "version": "1.0.0",
-    "description": "",
-    "main": "assets/js/script.js",
-    "scripts": {
-        "webpack": "webpack --watch",
-        "build": "webpack",
-        "start:dev": "webpack serve --mode=development",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "file-loader": "^6.2.0",
-        "webpack": "^4.46.0",
-        "webpack-bundle-analyzer": "^4.4.2",
-        "webpack-cli": "^4.7.0",
-        "webpack-dev-server": "^3.11.2"
-    },
-    "dependencies": {
-        "bootstrap": "^4.6.0",
-        "image-webpack-loader": "^7.0.1",
-        "jquery": "^3.4.1",
-        "popper": "^1.0.1",
-        "popper.js": "^1.16.0"
-    }
+  "name": "module-18-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/js/script.js",
+  "scripts": {
+    "webpack": "webpack --watch",
+    "build": "webpack",
+    "start:dev": "webpack serve --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "webpack": "^4.46.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "image-webpack-loader": "^7.0.1",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timweyel/food-festival.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timweyel/food-festival/issues"
+  },
+  "homepage": "https://github.com/timweyel/food-festival#readme"
 }
